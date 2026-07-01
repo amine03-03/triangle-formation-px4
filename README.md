@@ -4,7 +4,7 @@
 
 <p align="center">
   <!-- 📸 PLACEHOLDER: hero shot of the triangle in Gazebo -->
-  <img src="docs/media/hero_triangle.png" alt="Triangle formation in Gazebo" width="720"/>
+  <img src="docs/media/Screenshot from 2026-07-01 22-40-27.png" alt="Triangle formation in Gazebo" width="720"/>
 </p>
 
 <p align="center">
