@@ -31,7 +31,7 @@
 
 | Assemble phase | Waypoint following |
 |:---:|:---:|
-| ![assemble]("https://github.com/amine03-03/triangle-formation-px4/blob/main/docs/media/Screenshot%20from%202026-07-01%2022-40-27.png") | ![engage](docs/media/engage.png) |
+| ![assemble]("docs/media/Screenshot%20from%202026-07-01%2022-40-27.png") | ![engage](docs/media/engage.png) |
 <!-- 📸 PLACEHOLDER: swap in your own screenshots of ASSEMBLE and ENGAGE -->
 
 ---
