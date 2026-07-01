@@ -31,7 +31,7 @@
 
 | Assemble phase | Waypoint following |
 |:---:|:---:|
-| ![assemble]("docs/media/Screenshot%20from%202026-07-01%2022-40-27.png") | ![engage](docs/media/Screenshot%20from%202026-07-01%2022-40-46.png) |
+| ![assemble](docs/media/Screenshot%20from%202026-07-01%2022-40-27.png) | ![engage](docs/media/Screenshot%20from%202026-07-01%2022-40-46.png) |
 <!-- 📸 PLACEHOLDER: swap in your own screenshots of ASSEMBLE and ENGAGE -->
 
 ---
