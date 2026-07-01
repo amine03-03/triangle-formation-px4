@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>formation_bringup</name>
+  <version>0.1.0</version>
+  <description>Launch files, params, and PX4 spawn scripts for the triangle formation.</description>
+  <maintainer email="you@example.com">you</maintainer>
+  <license>BSD-3-Clause</license>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>formation_control</exec_depend>
+  <exec_depend>ros2launch</exec_depend>
+  <export><build_type>ament_python</build_type></export>
+</package>

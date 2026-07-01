@@ -1,0 +1,30 @@
+# Single source of truth for the formation. Edit here; the launch file
+# distributes these to the coordinator and to each drone_interface.
+
+side: 4.0             # triangle side length (m)
+altitude: 5.0         # formation flight altitude (m, positive up)
+cruise_speed: 2.0     # virtual-leader speed along the path (m/s)
+yaw_rate_max: 0.5     # leader yaw slew limit (rad/s) -> corner feasibility
+control_rate: 50.0    # Hz, offboard loop + coordinator broadcast
+
+# ---- EXTENSION POINT 2: relative-position / consensus term ----
+# 'zero'      -> pure virtual-leader tracking (v1 default)
+# 'consensus' -> add displacement-based inter-drone correction
+feedback:
+  type: zero
+  gain: 0.8
+  max_correction: 1.5
+
+# ---- EXTENSION POINT 1: trajectory ----
+# type 'waypoint' -> waypoints in [north, east]; 'circle' -> see registry.py
+trajectory:
+  type: waypoint
+  waypoints: [[0, 0], [10, 0], [10, 10], [0, 10], [0, 0]]   # 10 m square
+
+# Per-drone identity. spawn_ned MUST match the Gazebo spawn pose used in
+# start_px4_instances.sh (world NED, relative to drone px4_1 = origin).
+# slot index: 0=apex, 1=rear-right, 2=rear-left.
+drones:
+  - {index: 0, namespace: px4_1, sys_id: 2, spawn_ned: [0.0,  0.0, 0.0]}
+  - {index: 1, namespace: px4_2, sys_id: 3, spawn_ned: [0.0,  3.0, 0.0]}
+  - {index: 2, namespace: px4_3, sys_id: 4, spawn_ned: [0.0, -3.0, 0.0]}

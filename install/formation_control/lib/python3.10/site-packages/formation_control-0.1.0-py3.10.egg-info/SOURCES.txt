@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/formation_control/formation_control.egg-info/PKG-INFO
+../../build/formation_control/formation_control.egg-info/SOURCES.txt
+../../build/formation_control/formation_control.egg-info/dependency_links.txt
+../../build/formation_control/formation_control.egg-info/entry_points.txt
+../../build/formation_control/formation_control.egg-info/requires.txt
+../../build/formation_control/formation_control.egg-info/top_level.txt
+../../build/formation_control/formation_control.egg-info/zip-safe
+formation_control/__init__.py
+formation_control/coordinator_node.py
+formation_control/drone_interface_node.py
+formation_control/phases.py
+formation_control/px4_io.py
+resource/formation_control

@@ -1,0 +1,39 @@
+[0.352s] Invoking command in '/home/abdoulaziz/swarm/formation_ws/src/formation_bringup': AMENT_PREFIX_PATH=/home/abdoulaziz/swarm/formation_ws/install/formation_control:/home/abdoulaziz/swarm/formation_ws/install/px4_msgs:/home/abdoulaziz/swarm/formation_ws/install/formation_interfaces:/home/abdoulaziz/swarm/formation_ws/install/formation_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abdoulaziz/swarm/formation_ws/install/px4_msgs:/home/abdoulaziz/swarm/formation_ws/install/formation_interfaces LD_LIBRARY_PATH=/home/abdoulaziz/swarm/formation_ws/install/px4_msgs/lib:/home/abdoulaziz/swarm/formation_ws/install/formation_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abdoulaziz/swarm/formation_ws/build/formation_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdoulaziz/swarm/formation_ws/install/formation_bringup/lib/python3.10/site-packages:/home/abdoulaziz/swarm/formation_ws/install/formation_control/lib/python3.10/site-packages:/home/abdoulaziz/swarm/formation_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/abdoulaziz/swarm/formation_ws/install/formation_interfaces/local/lib/python3.10/dist-packages:/home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/formation_bringup build --build-base /home/abdoulaziz/swarm/formation_ws/build/formation_bringup/build install --record /home/abdoulaziz/swarm/formation_ws/build/formation_bringup/install.log --single-version-externally-managed install_data
+[0.476s] running egg_info
+[0.476s] creating ../../build/formation_bringup/formation_bringup.egg-info
+[0.476s] writing ../../build/formation_bringup/formation_bringup.egg-info/PKG-INFO
+[0.476s] writing dependency_links to ../../build/formation_bringup/formation_bringup.egg-info/dependency_links.txt
+[0.476s] writing entry points to ../../build/formation_bringup/formation_bringup.egg-info/entry_points.txt
+[0.476s] writing requirements to ../../build/formation_bringup/formation_bringup.egg-info/requires.txt
+[0.476s] writing top-level names to ../../build/formation_bringup/formation_bringup.egg-info/top_level.txt
+[0.476s] writing manifest file '../../build/formation_bringup/formation_bringup.egg-info/SOURCES.txt'
+[0.477s] reading manifest file '../../build/formation_bringup/formation_bringup.egg-info/SOURCES.txt'
+[0.477s] writing manifest file '../../build/formation_bringup/formation_bringup.egg-info/SOURCES.txt'
+[0.477s] running build
+[0.477s] running build_py
+[0.477s] creating /home/abdoulaziz/swarm/formation_ws/build/formation_bringup/build
+[0.477s] creating /home/abdoulaziz/swarm/formation_ws/build/formation_bringup/build/lib
+[0.477s] creating /home/abdoulaziz/swarm/formation_ws/build/formation_bringup/build/lib/formation_bringup
+[0.477s] copying formation_bringup/__init__.py -> /home/abdoulaziz/swarm/formation_ws/build/formation_bringup/build/lib/formation_bringup
+[0.478s] running install
+[0.478s] running install_lib
+[0.478s] creating /home/abdoulaziz/swarm/formation_ws/install/formation_bringup/lib/python3.10/site-packages/formation_bringup
+[0.478s] copying /home/abdoulaziz/swarm/formation_ws/build/formation_bringup/build/lib/formation_bringup/__init__.py -> /home/abdoulaziz/swarm/formation_ws/install/formation_bringup/lib/python3.10/site-packages/formation_bringup
+[0.478s] byte-compiling /home/abdoulaziz/swarm/formation_ws/install/formation_bringup/lib/python3.10/site-packages/formation_bringup/__init__.py to __init__.cpython-310.pyc
+[0.478s] running install_data
+[0.478s] creating /home/abdoulaziz/swarm/formation_ws/install/formation_bringup/share/ament_index
+[0.478s] creating /home/abdoulaziz/swarm/formation_ws/install/formation_bringup/share/ament_index/resource_index
+[0.479s] creating /home/abdoulaziz/swarm/formation_ws/install/formation_bringup/share/ament_index/resource_index/packages
+[0.479s] copying resource/formation_bringup -> /home/abdoulaziz/swarm/formation_ws/install/formation_bringup/share/ament_index/resource_index/packages
+[0.479s] copying package.xml -> /home/abdoulaziz/swarm/formation_ws/install/formation_bringup/share/formation_bringup
+[0.479s] creating /home/abdoulaziz/swarm/formation_ws/install/formation_bringup/share/formation_bringup/launch
+[0.479s] copying launch/formation.launch.py -> /home/abdoulaziz/swarm/formation_ws/install/formation_bringup/share/formation_bringup/launch
+[0.479s] creating /home/abdoulaziz/swarm/formation_ws/install/formation_bringup/share/formation_bringup/config
+[0.479s] copying config/formation.yaml -> /home/abdoulaziz/swarm/formation_ws/install/formation_bringup/share/formation_bringup/config
+[0.479s] creating /home/abdoulaziz/swarm/formation_ws/install/formation_bringup/share/formation_bringup/scripts
+[0.479s] copying scripts/start_px4_instances.sh -> /home/abdoulaziz/swarm/formation_ws/install/formation_bringup/share/formation_bringup/scripts
+[0.479s] running install_egg_info
+[0.480s] Copying ../../build/formation_bringup/formation_bringup.egg-info to /home/abdoulaziz/swarm/formation_ws/install/formation_bringup/lib/python3.10/site-packages/formation_bringup-0.1.0-py3.10.egg-info
+[0.480s] running install_scripts
+[0.490s] writing list of installed files to '/home/abdoulaziz/swarm/formation_ws/build/formation_bringup/install.log'
+[0.503s] Invoked command in '/home/abdoulaziz/swarm/formation_ws/src/formation_bringup' returned '0': AMENT_PREFIX_PATH=/home/abdoulaziz/swarm/formation_ws/install/formation_control:/home/abdoulaziz/swarm/formation_ws/install/px4_msgs:/home/abdoulaziz/swarm/formation_ws/install/formation_interfaces:/home/abdoulaziz/swarm/formation_ws/install/formation_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abdoulaziz/swarm/formation_ws/install/px4_msgs:/home/abdoulaziz/swarm/formation_ws/install/formation_interfaces LD_LIBRARY_PATH=/home/abdoulaziz/swarm/formation_ws/install/px4_msgs/lib:/home/abdoulaziz/swarm/formation_ws/install/formation_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abdoulaziz/swarm/formation_ws/build/formation_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdoulaziz/swarm/formation_ws/install/formation_bringup/lib/python3.10/site-packages:/home/abdoulaziz/swarm/formation_ws/install/formation_control/lib/python3.10/site-packages:/home/abdoulaziz/swarm/formation_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/abdoulaziz/swarm/formation_ws/install/formation_interfaces/local/lib/python3.10/dist-packages:/home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/formation_bringup build --build-base /home/abdoulaziz/swarm/formation_ws/build/formation_bringup/build install --record /home/abdoulaziz/swarm/formation_ws/build/formation_bringup/install.log --single-version-externally-managed install_data

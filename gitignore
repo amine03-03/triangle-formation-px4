@@ -1,0 +1,21 @@
+# colcon
+build/
+install/
+log/
+
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# px4_msgs is cloned separately (matches firmware version), don't commit it
+src/px4_msgs/
+
+# editor / os
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# media scratch (keep committed screenshots, ignore huge raw captures)
+docs/media/*.raw

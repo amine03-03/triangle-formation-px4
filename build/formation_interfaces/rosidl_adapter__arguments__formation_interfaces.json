@@ -1,0 +1,7 @@
+{
+  "package_name": "formation_interfaces",
+  "non_idl_tuples": [
+    "/home/abdoulaziz/swarm/formation_ws/src/formation_interfaces:msg/LeaderState.msg",
+    "/home/abdoulaziz/swarm/formation_ws/src/formation_interfaces:msg/DroneState.msg"
+  ]
+}

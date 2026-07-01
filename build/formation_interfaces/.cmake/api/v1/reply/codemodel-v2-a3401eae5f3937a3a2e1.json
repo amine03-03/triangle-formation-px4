@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6354410ac03c2ebcca3c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "formation_interfaces__py",
+					"jsonFile" : "directory-formation_interfaces__py-de71909040d2d6acfc23.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/abdoulaziz/swarm/formation_ws/build/formation_interfaces/formation_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "formation_interfaces__rs",
+					"jsonFile" : "directory-formation_interfaces__rs-84f33841f6824c8b6d93.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/abdoulaziz/swarm/formation_ws/build/formation_interfaces/formation_interfaces__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "formation_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_formation_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_formation_interfaces_egg-2f307c569f08d867168e.json",
+					"name" : "ament_cmake_python_build_formation_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_formation_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_formation_interfaces-8042b138bf895c1706dc.json",
+					"name" : "ament_cmake_python_copy_formation_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "formation_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-formation_interfaces-4e7dd5235582d43e3f31.json",
+					"name" : "formation_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "formation_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-formation_interfaces__cpp-d7337334529b8fa925e9.json",
+					"name" : "formation_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "formation_interfaces__py::@bc2b0b689e5e1e68a695",
+					"jsonFile" : "target-formation_interfaces__py-6a3189ae7e9202372cab.json",
+					"name" : "formation_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "formation_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-formation_interfaces__rosidl_generator_c-1512c6a645a66685c2ed.json",
+					"name" : "formation_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "formation_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-formation_interfaces__rosidl_generator_py-f253b64f6f2046b8d1e4.json",
+					"name" : "formation_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "formation_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-formation_interfaces__rosidl_typesupport_c-57648fce53bad746a269.json",
+					"name" : "formation_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "formation_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-formation_interfaces__rosidl_typesupport_c__pyext-5737ed857b5395f1f3b7.json",
+					"name" : "formation_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "formation_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-formation_interfaces__rosidl_typesupport_cpp-9c8d6b45dd102adbd9bc.json",
+					"name" : "formation_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "formation_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-formation_interfaces__rosidl_typesupport_fastrtps_c-61c1386b1ee941e72d94.json",
+					"name" : "formation_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "formation_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-formation_interfaces__rosidl_typesupport_fastrtps_c__pyext-a281bae5c9aed1e07780.json",
+					"name" : "formation_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "formation_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-formation_interfaces__rosidl_typesupport_fastrtps_cpp-00a2096278f58adb5479.json",
+					"name" : "formation_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "formation_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-formation_interfaces__rosidl_typesupport_introspection_c-6b2299ac5e10f61ba87a.json",
+					"name" : "formation_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "formation_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-formation_interfaces__rosidl_typesupport_introspection_c__pyext-9260b1fb14d1e7d4fd4d.json",
+					"name" : "formation_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "formation_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-formation_interfaces__rosidl_typesupport_introspection_cpp-a880a2da0afc820475e9.json",
+					"name" : "formation_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "formation_interfaces__rs::@16aa402b63c18b0ae0ac",
+					"jsonFile" : "target-formation_interfaces__rs-98b4a81ba68ea58e7819.json",
+					"name" : "formation_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "formation_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-formation_interfaces_uninstall-0fe86b3d21de5ed2836c.json",
+					"name" : "formation_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-a81d55aeeee96d40de4c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/abdoulaziz/swarm/formation_ws/build/formation_interfaces",
+		"source" : "/home/abdoulaziz/swarm/formation_ws/src/formation_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

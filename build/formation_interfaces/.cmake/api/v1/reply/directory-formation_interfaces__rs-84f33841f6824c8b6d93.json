@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "formation_interfaces__rs",
+		"source" : "/home/abdoulaziz/swarm/formation_ws/build/formation_interfaces/formation_interfaces__rs"
+	}
+}

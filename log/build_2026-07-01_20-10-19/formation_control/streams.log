@@ -1,0 +1,47 @@
+[0.337s] Invoking command in '/home/abdoulaziz/swarm/formation_ws/src/formation_control': AMENT_PREFIX_PATH=/home/abdoulaziz/swarm/formation_ws/install/px4_msgs:/home/abdoulaziz/swarm/formation_ws/install/formation_interfaces:/home/abdoulaziz/swarm/formation_ws/install/formation_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abdoulaziz/swarm/formation_ws/install/px4_msgs:/home/abdoulaziz/swarm/formation_ws/install/formation_interfaces LD_LIBRARY_PATH=/home/abdoulaziz/swarm/formation_ws/install/px4_msgs/lib:/home/abdoulaziz/swarm/formation_ws/install/formation_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abdoulaziz/swarm/formation_ws/build/formation_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdoulaziz/swarm/formation_ws/install/formation_control/lib/python3.10/site-packages:/home/abdoulaziz/swarm/formation_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/abdoulaziz/swarm/formation_ws/install/formation_interfaces/local/lib/python3.10/dist-packages:/home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/formation_control build --build-base /home/abdoulaziz/swarm/formation_ws/build/formation_control/build install --record /home/abdoulaziz/swarm/formation_ws/build/formation_control/install.log --single-version-externally-managed install_data
+[0.456s] running egg_info
+[0.457s] creating ../../build/formation_control/formation_control.egg-info
+[0.457s] writing ../../build/formation_control/formation_control.egg-info/PKG-INFO
+[0.457s] writing dependency_links to ../../build/formation_control/formation_control.egg-info/dependency_links.txt
+[0.457s] writing entry points to ../../build/formation_control/formation_control.egg-info/entry_points.txt
+[0.457s] writing requirements to ../../build/formation_control/formation_control.egg-info/requires.txt
+[0.457s] writing top-level names to ../../build/formation_control/formation_control.egg-info/top_level.txt
+[0.457s] writing manifest file '../../build/formation_control/formation_control.egg-info/SOURCES.txt'
+[0.458s] reading manifest file '../../build/formation_control/formation_control.egg-info/SOURCES.txt'
+[0.458s] writing manifest file '../../build/formation_control/formation_control.egg-info/SOURCES.txt'
+[0.458s] running build
+[0.458s] running build_py
+[0.458s] creating /home/abdoulaziz/swarm/formation_ws/build/formation_control/build
+[0.458s] creating /home/abdoulaziz/swarm/formation_ws/build/formation_control/build/lib
+[0.458s] creating /home/abdoulaziz/swarm/formation_ws/build/formation_control/build/lib/formation_control
+[0.458s] copying formation_control/px4_io.py -> /home/abdoulaziz/swarm/formation_ws/build/formation_control/build/lib/formation_control
+[0.458s] copying formation_control/phases.py -> /home/abdoulaziz/swarm/formation_ws/build/formation_control/build/lib/formation_control
+[0.458s] copying formation_control/coordinator_node.py -> /home/abdoulaziz/swarm/formation_ws/build/formation_control/build/lib/formation_control
+[0.459s] copying formation_control/__init__.py -> /home/abdoulaziz/swarm/formation_ws/build/formation_control/build/lib/formation_control
+[0.459s] copying formation_control/drone_interface_node.py -> /home/abdoulaziz/swarm/formation_ws/build/formation_control/build/lib/formation_control
+[0.459s] running install
+[0.459s] running install_lib
+[0.459s] creating /home/abdoulaziz/swarm/formation_ws/install/formation_control/lib/python3.10/site-packages/formation_control
+[0.459s] copying /home/abdoulaziz/swarm/formation_ws/build/formation_control/build/lib/formation_control/px4_io.py -> /home/abdoulaziz/swarm/formation_ws/install/formation_control/lib/python3.10/site-packages/formation_control
+[0.459s] copying /home/abdoulaziz/swarm/formation_ws/build/formation_control/build/lib/formation_control/phases.py -> /home/abdoulaziz/swarm/formation_ws/install/formation_control/lib/python3.10/site-packages/formation_control
+[0.459s] copying /home/abdoulaziz/swarm/formation_ws/build/formation_control/build/lib/formation_control/coordinator_node.py -> /home/abdoulaziz/swarm/formation_ws/install/formation_control/lib/python3.10/site-packages/formation_control
+[0.459s] copying /home/abdoulaziz/swarm/formation_ws/build/formation_control/build/lib/formation_control/__init__.py -> /home/abdoulaziz/swarm/formation_ws/install/formation_control/lib/python3.10/site-packages/formation_control
+[0.459s] copying /home/abdoulaziz/swarm/formation_ws/build/formation_control/build/lib/formation_control/drone_interface_node.py -> /home/abdoulaziz/swarm/formation_ws/install/formation_control/lib/python3.10/site-packages/formation_control
+[0.460s] byte-compiling /home/abdoulaziz/swarm/formation_ws/install/formation_control/lib/python3.10/site-packages/formation_control/px4_io.py to px4_io.cpython-310.pyc
+[0.460s] byte-compiling /home/abdoulaziz/swarm/formation_ws/install/formation_control/lib/python3.10/site-packages/formation_control/phases.py to phases.cpython-310.pyc
+[0.460s] byte-compiling /home/abdoulaziz/swarm/formation_ws/install/formation_control/lib/python3.10/site-packages/formation_control/coordinator_node.py to coordinator_node.cpython-310.pyc
+[0.461s] byte-compiling /home/abdoulaziz/swarm/formation_ws/install/formation_control/lib/python3.10/site-packages/formation_control/__init__.py to __init__.cpython-310.pyc
+[0.461s] byte-compiling /home/abdoulaziz/swarm/formation_ws/install/formation_control/lib/python3.10/site-packages/formation_control/drone_interface_node.py to drone_interface_node.cpython-310.pyc
+[0.462s] running install_data
+[0.462s] creating /home/abdoulaziz/swarm/formation_ws/install/formation_control/share/ament_index
+[0.462s] creating /home/abdoulaziz/swarm/formation_ws/install/formation_control/share/ament_index/resource_index
+[0.462s] creating /home/abdoulaziz/swarm/formation_ws/install/formation_control/share/ament_index/resource_index/packages
+[0.462s] copying resource/formation_control -> /home/abdoulaziz/swarm/formation_ws/install/formation_control/share/ament_index/resource_index/packages
+[0.462s] copying package.xml -> /home/abdoulaziz/swarm/formation_ws/install/formation_control/share/formation_control
+[0.462s] running install_egg_info
+[0.463s] Copying ../../build/formation_control/formation_control.egg-info to /home/abdoulaziz/swarm/formation_ws/install/formation_control/lib/python3.10/site-packages/formation_control-0.1.0-py3.10.egg-info
+[0.463s] running install_scripts
+[0.473s] Installing coordinator script to /home/abdoulaziz/swarm/formation_ws/install/formation_control/lib/formation_control
+[0.473s] Installing drone_interface script to /home/abdoulaziz/swarm/formation_ws/install/formation_control/lib/formation_control
+[0.473s] writing list of installed files to '/home/abdoulaziz/swarm/formation_ws/build/formation_control/install.log'
+[0.485s] Invoked command in '/home/abdoulaziz/swarm/formation_ws/src/formation_control' returned '0': AMENT_PREFIX_PATH=/home/abdoulaziz/swarm/formation_ws/install/px4_msgs:/home/abdoulaziz/swarm/formation_ws/install/formation_interfaces:/home/abdoulaziz/swarm/formation_ws/install/formation_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abdoulaziz/swarm/formation_ws/install/px4_msgs:/home/abdoulaziz/swarm/formation_ws/install/formation_interfaces LD_LIBRARY_PATH=/home/abdoulaziz/swarm/formation_ws/install/px4_msgs/lib:/home/abdoulaziz/swarm/formation_ws/install/formation_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abdoulaziz/swarm/formation_ws/build/formation_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdoulaziz/swarm/formation_ws/install/formation_control/lib/python3.10/site-packages:/home/abdoulaziz/swarm/formation_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/abdoulaziz/swarm/formation_ws/install/formation_interfaces/local/lib/python3.10/dist-packages:/home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/formation_control build --build-base /home/abdoulaziz/swarm/formation_ws/build/formation_control/build install --record /home/abdoulaziz/swarm/formation_ws/build/formation_control/install.log --single-version-externally-managed install_data

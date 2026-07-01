@@ -1,0 +1,92 @@
+[0.390s] Invoking command in '/home/abdoulaziz/swarm/formation_ws/src/formation_core': PYTHONPATH=/home/abdoulaziz/swarm/formation_ws/build/formation_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/formation_core build --build-base /home/abdoulaziz/swarm/formation_ws/build/formation_core/build install --record /home/abdoulaziz/swarm/formation_ws/build/formation_core/install.log --single-version-externally-managed install_data
+[0.508s] running egg_info
+[0.509s] creating ../../build/formation_core/formation_core.egg-info
+[0.509s] writing ../../build/formation_core/formation_core.egg-info/PKG-INFO
+[0.509s] writing dependency_links to ../../build/formation_core/formation_core.egg-info/dependency_links.txt
+[0.509s] writing entry points to ../../build/formation_core/formation_core.egg-info/entry_points.txt
+[0.509s] writing requirements to ../../build/formation_core/formation_core.egg-info/requires.txt
+[0.509s] writing top-level names to ../../build/formation_core/formation_core.egg-info/top_level.txt
+[0.509s] writing manifest file '../../build/formation_core/formation_core.egg-info/SOURCES.txt'
+[0.510s] reading manifest file '../../build/formation_core/formation_core.egg-info/SOURCES.txt'
+[0.510s] writing manifest file '../../build/formation_core/formation_core.egg-info/SOURCES.txt'
+[0.510s] running build
+[0.510s] running build_py
+[0.510s] creating /home/abdoulaziz/swarm/formation_ws/build/formation_core/build
+[0.510s] creating /home/abdoulaziz/swarm/formation_ws/build/formation_core/build/lib
+[0.510s] creating /home/abdoulaziz/swarm/formation_ws/build/formation_core/build/lib/formation_core
+[0.510s] copying formation_core/__init__.py -> /home/abdoulaziz/swarm/formation_ws/build/formation_core/build/lib/formation_core
+[0.510s] copying formation_core/types.py -> /home/abdoulaziz/swarm/formation_ws/build/formation_core/build/lib/formation_core
+[0.511s] creating /home/abdoulaziz/swarm/formation_ws/build/formation_core/build/lib/formation_core/formations
+[0.511s] copying formation_core/formations/triangle.py -> /home/abdoulaziz/swarm/formation_ws/build/formation_core/build/lib/formation_core/formations
+[0.511s] copying formation_core/formations/base.py -> /home/abdoulaziz/swarm/formation_ws/build/formation_core/build/lib/formation_core/formations
+[0.511s] copying formation_core/formations/__init__.py -> /home/abdoulaziz/swarm/formation_ws/build/formation_core/build/lib/formation_core/formations
+[0.511s] creating /home/abdoulaziz/swarm/formation_ws/build/formation_core/build/lib/formation_core/trajectories
+[0.511s] copying formation_core/trajectories/circle.py -> /home/abdoulaziz/swarm/formation_ws/build/formation_core/build/lib/formation_core/trajectories
+[0.511s] copying formation_core/trajectories/base.py -> /home/abdoulaziz/swarm/formation_ws/build/formation_core/build/lib/formation_core/trajectories
+[0.511s] copying formation_core/trajectories/waypoint.py -> /home/abdoulaziz/swarm/formation_ws/build/formation_core/build/lib/formation_core/trajectories
+[0.511s] copying formation_core/trajectories/registry.py -> /home/abdoulaziz/swarm/formation_ws/build/formation_core/build/lib/formation_core/trajectories
+[0.511s] copying formation_core/trajectories/__init__.py -> /home/abdoulaziz/swarm/formation_ws/build/formation_core/build/lib/formation_core/trajectories
+[0.511s] creating /home/abdoulaziz/swarm/formation_ws/build/formation_core/build/lib/formation_core/feedback
+[0.511s] copying formation_core/feedback/consensus.py -> /home/abdoulaziz/swarm/formation_ws/build/formation_core/build/lib/formation_core/feedback
+[0.511s] copying formation_core/feedback/zero.py -> /home/abdoulaziz/swarm/formation_ws/build/formation_core/build/lib/formation_core/feedback
+[0.511s] copying formation_core/feedback/base.py -> /home/abdoulaziz/swarm/formation_ws/build/formation_core/build/lib/formation_core/feedback
+[0.511s] copying formation_core/feedback/registry.py -> /home/abdoulaziz/swarm/formation_ws/build/formation_core/build/lib/formation_core/feedback
+[0.511s] copying formation_core/feedback/__init__.py -> /home/abdoulaziz/swarm/formation_ws/build/formation_core/build/lib/formation_core/feedback
+[0.511s] creating /home/abdoulaziz/swarm/formation_ws/build/formation_core/build/lib/formation_core/math
+[0.511s] copying formation_core/math/frames.py -> /home/abdoulaziz/swarm/formation_ws/build/formation_core/build/lib/formation_core/math
+[0.511s] copying formation_core/math/yaw.py -> /home/abdoulaziz/swarm/formation_ws/build/formation_core/build/lib/formation_core/math
+[0.512s] copying formation_core/math/__init__.py -> /home/abdoulaziz/swarm/formation_ws/build/formation_core/build/lib/formation_core/math
+[0.512s] running install
+[0.512s] running install_lib
+[0.512s] creating /home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages/formation_core
+[0.512s] creating /home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages/formation_core/formations
+[0.512s] copying /home/abdoulaziz/swarm/formation_ws/build/formation_core/build/lib/formation_core/formations/triangle.py -> /home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages/formation_core/formations
+[0.512s] copying /home/abdoulaziz/swarm/formation_ws/build/formation_core/build/lib/formation_core/formations/base.py -> /home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages/formation_core/formations
+[0.512s] copying /home/abdoulaziz/swarm/formation_ws/build/formation_core/build/lib/formation_core/formations/__init__.py -> /home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages/formation_core/formations
+[0.512s] creating /home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages/formation_core/trajectories
+[0.512s] copying /home/abdoulaziz/swarm/formation_ws/build/formation_core/build/lib/formation_core/trajectories/circle.py -> /home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages/formation_core/trajectories
+[0.513s] copying /home/abdoulaziz/swarm/formation_ws/build/formation_core/build/lib/formation_core/trajectories/base.py -> /home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages/formation_core/trajectories
+[0.513s] copying /home/abdoulaziz/swarm/formation_ws/build/formation_core/build/lib/formation_core/trajectories/waypoint.py -> /home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages/formation_core/trajectories
+[0.513s] copying /home/abdoulaziz/swarm/formation_ws/build/formation_core/build/lib/formation_core/trajectories/registry.py -> /home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages/formation_core/trajectories
+[0.513s] copying /home/abdoulaziz/swarm/formation_ws/build/formation_core/build/lib/formation_core/trajectories/__init__.py -> /home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages/formation_core/trajectories
+[0.513s] creating /home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages/formation_core/feedback
+[0.513s] copying /home/abdoulaziz/swarm/formation_ws/build/formation_core/build/lib/formation_core/feedback/consensus.py -> /home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages/formation_core/feedback
+[0.513s] copying /home/abdoulaziz/swarm/formation_ws/build/formation_core/build/lib/formation_core/feedback/zero.py -> /home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages/formation_core/feedback
+[0.513s] copying /home/abdoulaziz/swarm/formation_ws/build/formation_core/build/lib/formation_core/feedback/base.py -> /home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages/formation_core/feedback
+[0.513s] copying /home/abdoulaziz/swarm/formation_ws/build/formation_core/build/lib/formation_core/feedback/registry.py -> /home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages/formation_core/feedback
+[0.513s] copying /home/abdoulaziz/swarm/formation_ws/build/formation_core/build/lib/formation_core/feedback/__init__.py -> /home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages/formation_core/feedback
+[0.513s] creating /home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages/formation_core/math
+[0.513s] copying /home/abdoulaziz/swarm/formation_ws/build/formation_core/build/lib/formation_core/math/frames.py -> /home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages/formation_core/math
+[0.513s] copying /home/abdoulaziz/swarm/formation_ws/build/formation_core/build/lib/formation_core/math/yaw.py -> /home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages/formation_core/math
+[0.513s] copying /home/abdoulaziz/swarm/formation_ws/build/formation_core/build/lib/formation_core/math/__init__.py -> /home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages/formation_core/math
+[0.513s] copying /home/abdoulaziz/swarm/formation_ws/build/formation_core/build/lib/formation_core/__init__.py -> /home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages/formation_core
+[0.513s] copying /home/abdoulaziz/swarm/formation_ws/build/formation_core/build/lib/formation_core/types.py -> /home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages/formation_core
+[0.513s] byte-compiling /home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages/formation_core/formations/triangle.py to triangle.cpython-310.pyc
+[0.514s] byte-compiling /home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages/formation_core/formations/base.py to base.cpython-310.pyc
+[0.514s] byte-compiling /home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages/formation_core/formations/__init__.py to __init__.cpython-310.pyc
+[0.514s] byte-compiling /home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages/formation_core/trajectories/circle.py to circle.cpython-310.pyc
+[0.514s] byte-compiling /home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages/formation_core/trajectories/base.py to base.cpython-310.pyc
+[0.514s] byte-compiling /home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages/formation_core/trajectories/waypoint.py to waypoint.cpython-310.pyc
+[0.515s] byte-compiling /home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages/formation_core/trajectories/registry.py to registry.cpython-310.pyc
+[0.515s] byte-compiling /home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages/formation_core/trajectories/__init__.py to __init__.cpython-310.pyc
+[0.515s] byte-compiling /home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages/formation_core/feedback/consensus.py to consensus.cpython-310.pyc
+[0.515s] byte-compiling /home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages/formation_core/feedback/zero.py to zero.cpython-310.pyc
+[0.515s] byte-compiling /home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages/formation_core/feedback/base.py to base.cpython-310.pyc
+[0.515s] byte-compiling /home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages/formation_core/feedback/registry.py to registry.cpython-310.pyc
+[0.515s] byte-compiling /home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages/formation_core/feedback/__init__.py to __init__.cpython-310.pyc
+[0.515s] byte-compiling /home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages/formation_core/math/frames.py to frames.cpython-310.pyc
+[0.516s] byte-compiling /home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages/formation_core/math/yaw.py to yaw.cpython-310.pyc
+[0.516s] byte-compiling /home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages/formation_core/math/__init__.py to __init__.cpython-310.pyc
+[0.516s] byte-compiling /home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages/formation_core/__init__.py to __init__.cpython-310.pyc
+[0.516s] byte-compiling /home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages/formation_core/types.py to types.cpython-310.pyc
+[0.516s] running install_data
+[0.516s] creating /home/abdoulaziz/swarm/formation_ws/install/formation_core/share/ament_index
+[0.516s] creating /home/abdoulaziz/swarm/formation_ws/install/formation_core/share/ament_index/resource_index
+[0.516s] creating /home/abdoulaziz/swarm/formation_ws/install/formation_core/share/ament_index/resource_index/packages
+[0.516s] copying resource/formation_core -> /home/abdoulaziz/swarm/formation_ws/install/formation_core/share/ament_index/resource_index/packages
+[0.516s] copying package.xml -> /home/abdoulaziz/swarm/formation_ws/install/formation_core/share/formation_core
+[0.516s] running install_egg_info
+[0.517s] Copying ../../build/formation_core/formation_core.egg-info to /home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages/formation_core-0.1.0-py3.10.egg-info
+[0.518s] running install_scripts
+[0.527s] writing list of installed files to '/home/abdoulaziz/swarm/formation_ws/build/formation_core/install.log'
+[0.538s] Invoked command in '/home/abdoulaziz/swarm/formation_ws/src/formation_core' returned '0': PYTHONPATH=/home/abdoulaziz/swarm/formation_ws/build/formation_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdoulaziz/swarm/formation_ws/install/formation_core/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/formation_core build --build-base /home/abdoulaziz/swarm/formation_ws/build/formation_core/build install --record /home/abdoulaziz/swarm/formation_ws/build/formation_core/install.log --single-version-externally-managed install_data

@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/formation_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/formation_interfaces/msg/detail/drone_state__type_support.c.o"
+  "CMakeFiles/formation_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/formation_interfaces/msg/detail/drone_state__type_support.c.o.d"
+  "CMakeFiles/formation_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/formation_interfaces/msg/detail/leader_state__type_support.c.o"
+  "CMakeFiles/formation_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/formation_interfaces/msg/detail/leader_state__type_support.c.o.d"
+  "libformation_interfaces__rosidl_typesupport_introspection_c.pdb"
+  "libformation_interfaces__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/formation_interfaces/msg/detail/drone_state__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/formation_interfaces/msg/detail/drone_state__type_support.c"
+  "rosidl_typesupport_introspection_c/formation_interfaces/msg/detail/leader_state__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/formation_interfaces/msg/detail/leader_state__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/formation_interfaces__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

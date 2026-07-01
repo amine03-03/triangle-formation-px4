@@ -1,0 +1,4 @@
+[console_scripts]
+coordinator = formation_control.coordinator_node:main
+drone_interface = formation_control.drone_interface_node:main
+
