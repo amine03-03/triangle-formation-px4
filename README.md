@@ -1,50 +1,50 @@
-&lt;!-- 
+<!-- 
   Triangle Formation Flight — PX4 · Gazebo · ROS 2
   Professional README template for GitHub (no macros, no Jinja)
---&gt;
+-->
 
-&lt;h1 align="center"&gt;🛸 Triangle Formation Flight&lt;/h1&gt;
+<h1 align="center">🛸 Triangle Formation Flight</h1>
 
-&lt;p align="center"&gt;
-  &lt;strong&gt;PX4 · Gazebo · ROS 2&lt;/strong&gt;&lt;br&gt;
-  &lt;em&gt;Virtual-leader formation control with consensus robustness&lt;/em&gt;
-&lt;/p&gt;
+<p align="center">
+  <strong>PX4 · Gazebo · ROS 2</strong><br>
+  <em>Virtual-leader formation control with consensus robustness</em>
+</p>
 
-&lt;p align="center"&gt;
-  &lt;a href="https://px4.io/"&gt;
-    &lt;img src="https://img.shields.io/badge/PX4-v1.17-blue?style=flat-square&logo=px4" alt="PX4 v1.17"&gt;
-  &lt;/a&gt;
-  &lt;a href="https://docs.ros.org/en/humble/"&gt;
-    &lt;img src="https://img.shields.io/badge/ROS_2-Humble-22314E?style=flat-square&logo=ros" alt="ROS 2 Humble"&gt;
-  &lt;/a&gt;
-  &lt;a href="https://gazebosim.org/"&gt;
-    &lt;img src="https://img.shields.io/badge/Gazebo-Harmonic-orange?style=flat-square&logo=gazebo" alt="Gazebo Harmonic"&gt;
-  &lt;/a&gt;
-  &lt;a href="https://docs.px4.io/main/en/middleware/uxrce_dds.html"&gt;
-    &lt;img src="https://img.shields.io/badge/Bridge-uXRCE--DDS-green?style=flat-square" alt="uXRCE-DDS"&gt;
-  &lt;/a&gt;
-  &lt;a href="LICENSE"&gt;
-    &lt;img src="https://img.shields.io/badge/license-BSD--3--Clause-lightgrey?style=flat-square" alt="BSD-3-Clause"&gt;
-  &lt;/a&gt;
-&lt;/p&gt;
+<p align="center">
+  <a href="https://px4.io/">
+    <img src="https://img.shields.io/badge/PX4-v1.17-blue?style=flat-square&logo=px4" alt="PX4 v1.17">
+  </a>
+  <a href="https://docs.ros.org/en/humble/">
+    <img src="https://img.shields.io/badge/ROS_2-Humble-22314E?style=flat-square&logo=ros" alt="ROS 2 Humble">
+  </a>
+  <a href="https://gazebosim.org/">
+    <img src="https://img.shields.io/badge/Gazebo-Harmonic-orange?style=flat-square&logo=gazebo" alt="Gazebo Harmonic">
+  </a>
+  <a href="https://docs.px4.io/main/en/middleware/uxrce_dds.html">
+    <img src="https://img.shields.io/badge/Bridge-uXRCE--DDS-green?style=flat-square" alt="uXRCE-DDS">
+  </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/license-BSD--3--Clause-lightgrey?style=flat-square" alt="BSD-3-Clause">
+  </a>
+</p>
 
-&lt;p align="center"&gt;
-  &lt;img src="docs/media/Screenshot%20from%202026-07-01%2022-40-27.png" alt="Triangle formation in Gazebo" width="720"/&gt;
-&lt;/p&gt;
+<p align="center">
+  <img src="docs/media/Screenshot%20from%202026-07-01%2022-40-27.png" alt="Triangle formation in Gazebo" width="720"/>
+</p>
 
 ---
 
 ## 🎬 Demo
 
-&lt;p align="center"&gt;
-  &lt;a href="https://github.com/user-attachments/assets/305f10ad-7c2a-4d36-b334-47bf534d025d"&gt;
-    &lt;img src="docs/media/video_thumbnail.png" alt="Watch the simulation run" width="720"/&gt;
-  &lt;/a&gt;
-&lt;/p&gt;
+<p align="center">
+  <a href="https://github.com/user-attachments/assets/305f10ad-7c2a-4d36-b334-47bf534d025d">
+    <img src="docs/media/video_thumbnail.png" alt="Watch the simulation run" width="720"/>
+  </a>
+</p>
 
 | Assemble phase | Waypoint following |
 |:---:|:---:|
-| &lt;img src="docs/media/Screenshot%20from%202026-07-01%2022-40-27.png" alt="assemble" width="360"&gt; | &lt;img src="docs/media/Screenshot%20from%202026-07-01%2022-40-46.png" alt="engage" width="360"&gt; |
+| <img src="docs/media/Screenshot%20from%202026-07-01%2022-40-27.png" alt="assemble" width="360"> | <img src="docs/media/Screenshot%20from%202026-07-01%2022-40-46.png" alt="engage" width="360"> |
 
 ---
 
@@ -102,7 +102,7 @@ $$
 \psi_{k+1} = \psi_k + \text{clamp}\!\big(\text{wrap}(\psi^\star - \psi_k),\ -\omega_{\max}\,\Delta t,\ +\omega_{\max}\,\Delta t\big)
 $$
 
-&gt; **Note:** `\operatorname` is not supported by GitHub's math renderer. Use `\text{...}` or plain text instead.
+> **Note:** `\operatorname` is not supported by GitHub's math renderer. Use `\text{...}` or plain text instead.
 
 ### Turn-feasibility constraint
 
