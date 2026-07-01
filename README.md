@@ -24,7 +24,7 @@
      user-images URL below — GitHub will render it inline as a player. -->
 
 <p align="center">
-  <a href="github.com/user-attachments/assets/305f10ad-7c2a-4d36-b334-47bf534d025d">
+  <a href="https://github.com/user-attachments/assets/305f10ad-7c2a-4d36-b334-47bf534d025d">
     <img src="docs/media/video_thumbnail.png" alt="Watch the simulation run" width="720"/>
   </a>
 </p>
